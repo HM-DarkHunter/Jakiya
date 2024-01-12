@@ -58,7 +58,7 @@ def hopss(z):
         time.sleep(0.1)
 
 
-banner = '\n\x1b[1;95mTool By Hacker wasii\n We are not responsible for any \nillegal activity\n \n'
+banner = '\n\x1b[1;95mTool By Hacker HM Borhan Uddin\n We are not responsible for any \nillegal activity\n \n'
 
 def tik():
     titik = [
@@ -154,7 +154,7 @@ def men():
         time.sleep(3)
         os.wasii('python2 black.py')
     elif rana == '6':
-        os.system('xdg-open https://www.youtube.com/channel/HackerWasii')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100086077119605&mibextid=JRoKGi')
         menu()
     elif rana == '7':
         os.system('rm -rf login.txt')

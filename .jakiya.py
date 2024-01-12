@@ -10,7 +10,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 wasi.py')
+    os.system('python2 black.py')
 
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -89,7 +89,7 @@ def menu():
         print '[!] \x1b[1;91mToken Not Found'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
 
     try:
         otw = requests.get('https://graph.facebook.com/me?access_token=' + toket)
@@ -101,7 +101,7 @@ def menu():
         print '[!] \x1b[1;91mAccount Is On Checkpoint'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
     except requests.exceptions.ConnectionError:
         print '[!] No Connection'
         time.sleep(1)
@@ -152,14 +152,14 @@ def men():
         wasii('[\xe2\x9c\x93] \x1b[1;92mTool Has Been Update Successfully')
         wasii('[\xe2\x9c\x93] \x1b[1;92mPlease Wait While Update Is Setting Up On Your Mobile Phone')
         time.sleep(3)
-        os.wasii('python2 wasi.py')
+        os.wasii('python2 black.py')
     elif rana == '6':
         os.system('xdg-open https://www.youtube.com/channel/HackerWasii')
         menu()
     elif rana == '7':
         os.system('rm -rf login.txt')
         wasii('[\xe2\x9c\x93] Logged Out Successfully')
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
     else:
         print '[!] \x1b[1;91mWrong Input'
         men()
@@ -174,7 +174,7 @@ def crack():
         print '\x1b[1;91mToken invalid'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
 
     os.system('clear')
     print banner
@@ -367,7 +367,7 @@ def grab():
         print '[!] Token Not Found'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
 
     os.system('clear')
     print banner
@@ -469,7 +469,7 @@ def emailfromfriend():
         print '[!] Token Not Found'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
 
     try:
         os.mkdir('save')
@@ -540,7 +540,7 @@ def numberfromfriend():
         print '[!] Token Not Found'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
 
     try:
         os.mkdir('save')
@@ -610,7 +610,7 @@ def bot():
         print '[!] Token not found'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        os.system('python2 wasi.py')
+        os.system('python2 balck.py')
 
     os.system('clear')
     print banner
@@ -651,7 +651,7 @@ def deletepost():
         print '[!] Token Not Found'
         os.system('rm -rf login.txt')
         time.sleep(0.1)
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
 
     os.system('clear')
     print banner
@@ -690,7 +690,7 @@ def accept():
         print '[!] Token Not Found'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
 
     os.system('clear')
     print banner
@@ -725,7 +725,7 @@ def unfriend():
         print '[!] Token Not Found'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
 
     os.system('clear')
     print banner

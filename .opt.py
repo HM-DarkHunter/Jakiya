@@ -1,6 +1,6 @@
-# Tool : Wasii ( Facebook cloning tool)
-# Author : Waseem Akram ( hackerwasii )
-# github : https://github.com/evildevill
+# Tool : HM Borhan Uddin ( Facebook cloning tool)
+# Author : Black_Hole( HM Borhan Uddin)
+# github : HM-BORHAN-BLACK-HOLE-CYBER
 # Note : we are not responsible for any misuse
 try:
     import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, mechanize, requests
@@ -51,7 +51,7 @@ def wasii(z):
         time.sleep(0.03)
 
 
-banner = '\n\x1b[1;95mTool By Hacker wasii\n We are not responsible for any \nillegal activity\n \n'
+banner = '\n\x1b[1;95mTool By HM Borhan Uddin\n We are not responsible for any \nillegal activity\n \n'
 back = 0
 threads = []
 successful = []

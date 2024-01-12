@@ -10,7 +10,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 wasi.py')
+    os.system('python2 black.py')
 
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -68,7 +68,7 @@ def menu2():
         os.system('clear')
         print '[!] Token Not Found'
         os.system('rm -rf login.txt')
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
         time.sleep(1)
 
     try:
@@ -80,7 +80,7 @@ def menu2():
         os.system('clear')
         print '[!] \x1b[1;91mAccount Is On Checkpoint'
         os.system('rm -rf login.txt')
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
         time.sleep(1)
     except requests.exceptions.ConnectionError:
         print '[!]\x1b[1;91m No Connection'
@@ -114,7 +114,7 @@ def menu2_menu():
         wasii('Please Wait.')
         wasii('While Is Returning To Main Menu.')
         time.sleep(1)
-        os.system('python2 .wasii.py')
+        os.system('python2 .black.py')
     else:
         print '[!] \x1b[1;91mWrong Input.'
         menu2_menu()
@@ -129,7 +129,7 @@ def choice1():
         print '[!]\x1b[1;91m Token invalid'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
 
     os.system('clear')
     print banner
@@ -314,7 +314,7 @@ def choice2():
         print '[!] Token invalid'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        os.system('python2 wasi.py')
+        os.system('python2 black.py')
 
     os.system('clear')
     print banner

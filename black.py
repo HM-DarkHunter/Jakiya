@@ -10,7 +10,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 wasi.py')
+    os.system('python2 black.py')
 
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -68,7 +68,7 @@ def tlogin():
     os.system('clear')
     print banner
     username = raw_input('[\xf0\x9f\x94\x90] \x1b[1;94mTOOL USERNAME: ')
-    if username == 'hacker':
+    if username == 'jakiya':
         os.system('clear')
         print banner
         print '[\xe2\x9c\x93]  \x1b[1;91mTOOL USERNAME: ' + username + ' (correct)'
@@ -77,7 +77,7 @@ def tlogin():
         time.sleep(1)
         tlogin()
     passw = raw_input('[\xf0\x9f\x94\x90]  \x1b[1;94mTOOL PASSWORD: ')
-    if passw == 'wasii':
+    if passw == 'black':
         os.system('clear')
         print banner
         print '[\xe2\x9c\x93]  \x1b[1;91mTOOL USERNAME: ' + username + ' (correct)'
@@ -89,7 +89,7 @@ def tlogin():
         tlogin()
     try:
         toket = open('login.txt', 'r')
-        os.system('python2 .wasii.py')
+        os.system('python2 .black.py')
     except (KeyError, IOError):
         methodlogin()
     else:
@@ -122,7 +122,7 @@ def methodlogin():
         print '\n[\xe2\x9c\x93]  \x1b[1;91mLogged In Successfully.'
         time.sleep(1)
         os.system('xdg-open https://www.youtube.com/channel/HackerWasii')
-        os.system('python2 .wasii.py')
+        os.system('python2 .black.py')
     elif hos == '0':
         exit()
     else:
@@ -134,7 +134,7 @@ def login():
     os.system('clear')
     try:
         tb = open('login.txt', 'r')
-        os.system('python2 .wasii.py')
+        os.system('python2 .balck.py')
     except (KeyError, IOError):
         os.system('clear')
         print banner

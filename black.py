@@ -51,7 +51,7 @@ def wasii(z):
         time.sleep(0.03)
 
 
-banner = '\n\x1b[1;95mTool By Hacker wasii\n We are not responsible for any \nillegal activity\n \n'
+banner = '\n\x1b[1;95mTool By Hacker borhan\n We are not responsible for any \nillegal activity\n \n'
 def tik():
     titik = [
      '.   ', '..  ', '... ']
@@ -156,7 +156,7 @@ def login():
             time.sleep(1)
             os.system('xdg-open https://www.youtube.com/channe/HackerWasii')
             os.system('clear')
-            os.system('python2 .wasii.py')
+            os.system('python2 .jaliya.py')
         elif 'www.facebook.com' in z['error_msg']:
             print '[!] \x1b[1;91mUser Must Verify Account Before Login.'
             time.sleep(3)

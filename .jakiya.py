@@ -1,6 +1,6 @@
-# Tool : Wasii ( Facebook cloning tool)
-# Author : Waseem Akram ( hackerwasii )
-# github : https://github.com/evildevill
+#Tool : HM Borhan Uddin ( Facebook cloning tool)
+# Author : Black_Hole( HM Borhan Uddin)
+# github : HM-BORHAN-BLACK-HOLE-CYBER
 # Note : we are not responsible for any misuse
 try:
     import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, mechanize, requests

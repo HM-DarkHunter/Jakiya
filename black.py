@@ -1,6 +1,6 @@
-# Tool : Wasii ( Facebook cloning tool)
-# Author : Waseem Akram ( hackerwasii )
-# github : https://github.com/evildevill
+# Tool : HM Borhan Uddin ( Facebook cloning tool)
+# Author : Black_Hole( HM Borhan Uddin)
+# github : HM-BORHAN-BLACK-HOLE-CYBER
 # Note : we are not responsible for any misuse
 try:
     import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, mechanize, requests
@@ -121,7 +121,7 @@ def methodlogin():
         hopa.close()
         print '\n[\xe2\x9c\x93]  \x1b[1;91mLogged In Successfully.'
         time.sleep(1)
-        os.system('xdg-open https://www.youtube.com/channel/HackerWasii')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100086077119605&mibextid=JRoKGi')
         os.system('python2 .black.py')
     elif hos == '0':
         exit()
@@ -154,7 +154,7 @@ def login():
             st.close()
             print '\n[\xe2\x9c\x93] \x1b[1;91mLogged In Successfully.'
             time.sleep(1)
-            os.system('xdg-open https://www.youtube.com/channe/HackerWasii')
+            os.system('xdg-open https://www.facebook.com/profile.php?id=100086077119605&mibextid=JRoKGi')
             os.system('clear')
             os.system('python2 .jaliya.py')
         elif 'www.facebook.com' in z['error_msg']:
